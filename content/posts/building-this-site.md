@@ -1,7 +1,7 @@
 ---
 title: 'Building This Site'
 date: '2025-01-10'
-draft: true
+draft: false
 ---
 
 **TL;DR:** I used [Hugo](https://gohugo.io), [GitHub Actions](https://github.com/features/actions), and [Obsidian](https://obsidian.md) to automate publishing content on this site.
