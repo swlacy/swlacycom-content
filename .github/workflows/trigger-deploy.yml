@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Trigger deploy action
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
           GITHUB_REPO: swlacy/swlacycom
         run: |
           curl -L -X POST \
