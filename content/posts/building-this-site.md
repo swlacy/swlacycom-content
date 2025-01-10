@@ -26,7 +26,7 @@ Functional requirements:
 
 Here's the tech stack I landed on:
 1. Content editor: Obsidian (mandatory) with the [obsidian-git](https://github.com/Vinzent03/obsidian-git) plugin. Obsidian is free for non-commercial use.
-2. Site generator and styling: [Hugo](https://gohugo.io) and [TailwindCSS]([https://tailwindcss.com](https://tailwindcss.com), because I am most familiar with these and they're very simple to set up. Both Hugo and TailwindCSS are free.
+2. Site generator and styling: [Hugo](https://gohugo.io) and [TailwindCSS](https://tailwindcss.com), because I am most familiar with these and they're very simple to set up. Both Hugo and TailwindCSS are free.
 3. Site hosting: Firebase, since I already use Google Workspace. As of publication, Firebase is free on the [Spark Plan](https://firebase.google.com/pricing) for hosting up to 10 GB of content with 360 MB of transfer per day. I don't expect to get anywhere close to those limits.
 4. Version control and deployment automation (CD): GitHub and [GitHub Actions](https://github.com/features/actions). GitHub repositories are free, and as of publication, GitHub Actions on public repositories are free for up to 500 MB of storage and 2,000 compute minutes per month. Deployments of this site are measured in seconds and do not persistently store artifacts.
 
@@ -43,7 +43,9 @@ Deployment flow:
 
 I used a two-repo approach instead of a simple monorepo to minimize clutter in my Obsidian vault. A monorepo would have brought all the site configuration files and structure along with the content.
 
-The end result satisfies the requirements: I have a directory in my Obsidian vault which holds just the text and assets of this site, and the human process of committing changes only takes a few seconds. It costs $0, GitHub manages version control, and I can write and publish entirely within Obsidian. As I am only modifying a few files at a time, this approach should scale well into the future. I could incur charges from exceeding the Firebase free tier if this site gets too much traffic – but I think that would be a happy problem!
+The end result satisfies the requirements: I have a directory in my Obsidian vault which holds just the text and assets of this site, and the human process of committing changes only takes a few seconds. It costs $0, GitHub manages version control, and I can write and publish entirely within Obsidian.
+
+As I am only modifying a few files at a time, this approach should scale well into the future. I could incur charges from exceeding the Firebase free tier if this site gets too much traffic – but I think that would be a happy problem!
 
 _This post was published using the described workflow._
 
