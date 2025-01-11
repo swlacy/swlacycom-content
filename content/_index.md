@@ -1,8 +1,7 @@
 ---
 title: 👋 Hey, I'm Sid.
-draft: false
 ---
 
-I'm a security engineer based in the Pacific Northwest. I currently work in Vulnerability Management at Amazon Web Services (AWS). [More...](/now)
+Security engineer based in the Pacific Northwest. Currently at Amazon Web Services (AWS) in Vulnerability Management. [More...](/now)
 
 I also write [here](/posts).
